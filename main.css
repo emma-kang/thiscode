@@ -4,3 +4,8 @@
     padding: 0;
     font-family: 'Noto Sans KR', sans-serif;
 }
+
+body {
+    color: #fff;
+    background: linear-gradient(90deg, #555, #000);
+}
