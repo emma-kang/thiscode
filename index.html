@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This Code</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
@@ -12,10 +13,63 @@
 </head>
 
 <body>
-<h1>Welcome to My Static Page!</h1>
-<p>This is a simple static page using HTML and CSS.</p>
-<div>
-    <img src="assets/profile.png"  alt="profile"/>
+<div class="container mx-auto">
+    <div class="flex flex-col md:flex-row-reverse items-center md:justify-between p-8">
+        <div class="mb-6"><img src="assets/logo.png" alt="this_code" /></div>
+        <div>
+            <p>안녕하세요</p>
+            <p>북미 티콘서버 한인길드 <span class="text-purple-400 font-semibold underline decoration-purple-400 text-2xl">디스코드</span>입니다</p>
+        </div>
+    </div>
+    <div class="p-8">
+        <ul role="list" class="divide-y divide-gray-100">
+            <li class="flex justify-between gap-x-6 py-5">
+                <div class="flex min-w-0 gap-x-4">
+                    <div class="min-w-0 flex-auto">
+                        <p class="text-md font-semibold leading-6 text-stone-100">PVE(쐐기/레이드) 중심 길드</p>
+                        <p class="mt-1 truncate text-sm leading-5 text-sky-400">PVP 길드멤버도 있으시지만 많진 않습니다</p>
+                    </div>
+                </div>
+            </li>
+            <li class="flex justify-between gap-x-6 py-5">
+                <div class="flex min-w-0 gap-x-4">
+                    <div class="min-w-0 flex-auto">
+                        <p class="text-md font-semibold leading-6 text-stone-100">이중길드 허용금지</p>
+                        <p class="mt-1 truncate text-sm leading-5 text-sky-400">적발시 양해를 구하고 추방조치합니다</p>
+                    </div>
+                </div>
+            </li>
+            <li class="flex justify-between gap-x-6 py-5">
+                <div class="flex min-w-0 gap-x-4">
+                    <div class="min-w-0 flex-auto">
+                        <p class="text-md font-semibold leading-6 text-stone-100">상호존중 / 매너를 가장 우선시합니다</p>
+                        <p class="mt-1 truncate text-sm leading-5 text-sky-400">여기에 매너와 열쩡만 있다면 더욱 더 환영입니다</p>
+                    </div>
+                </div>
+            </li>
+            <li class="flex justify-between gap-x-6 py-5">
+                <div class="flex min-w-0 gap-x-4">
+                    <div class="min-w-0 flex-auto">
+                        <p class="text-md font-semibold leading-6 text-stone-100">매주 서버시간 금요일 오후 7시 길드 영웅레이드 진행 중입니다</p>
+                        <p class="mt-1 truncate text-sm leading-5 text-sky-400">따로 학원팟은 운영하고 있지 않으며, 인원이 되는 대로 신화레이드 정공을 시작하려합니다</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="p-8">
+        <div class="grid xs:grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="border flex items-center p-4"><a href="https://discord.gg/4YXGsFYm" class="hover:text-purple-400" target="_blank"> Discord 초대링크</a></div>
+            <div class="border flex items-center p-4">배틀넷: <span class="text-purple-400">KACHU#11283</span></div>
+            <div class="border p-4">
+                <p>인게임</p>
+                <p>호드 길드검색: This Code</p>
+                <p><span class="text-purple-400">/who</span> 접속 중인 인원에게 문의하기</p>
+                <p>얼라이언스 귓말: <span class="text-purple-400">Kawarf</span></p>
+                <p>호드 귓말: <span class="text-purple-400">Kachu / Hongsi / Lajo</span></p>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 
